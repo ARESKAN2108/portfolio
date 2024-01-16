@@ -8,6 +8,13 @@
   z-index: 3;
   top: 205px;
   left: 50px;
+  &__link {
+    &:hover {
+      svg path {
+        fill: $main-color;
+      }
+    }
+  }
   &__divider {
     width: 3px;
     height: 70px;
