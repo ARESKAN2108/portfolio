@@ -17,7 +17,7 @@
   &__description {
     padding-top: 6px;
     .divider {
-      margin-top: 0;
+      margin: 0;
     }
   }
   &__title {
@@ -44,6 +44,9 @@
     &-circle {
       position: relative;
       padding: 15px 0 0 15px;
+      &-mobile {
+        padding: 14px 0 0 18px;
+      }
       @include before-circle;
       &:before {
         background: $main-color;
